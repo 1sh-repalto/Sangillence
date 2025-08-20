@@ -33,9 +33,9 @@ export default function Hero() {
     <div className="relative overflow-hidden max-md:pb-10 md:min-h-[500px] lg:min-h-[calc(100vh-76px)] px-4 sm:px-6 md:px-16">
       {/* Top announcement bar */}
       <div className="relative z-20 pt-4">
-        <div className="max-w-7xl mx-auto">
-          <Link to="/olympiad" className="block group">
-            <div className="mx-auto w-full sm:w-max rounded-full border border-white/10 bg-gradient-to-r from-emerald-600/90 via-blue-600/90 to-purple-600/90 px-4 py-2 sm:px-6 sm:py-2.5 shadow-2xl backdrop-blur-sm">
+        <div className="w-full">
+          <Link to="/olympiad" className="block group w-full">
+            <div className="w-full rounded-none border border-white/10 bg-gradient-to-r from-emerald-600/90 via-blue-600/90 to-purple-600/90 px-4 py-2 sm:px-6 sm:py-2.5 shadow-2xl backdrop-blur-sm">
               <div className="flex items-center justify-center gap-3">
                 <span className="inline-flex h-2.5 w-2.5 rounded-full bg-emerald-300 shadow-[0_0_8px_2px_rgba(110,231,183,0.9)] animate-pulse" aria-hidden="true"></span>
                 <span className="text-white font-family-givonic-semiBold text-sm sm:text-base tracking-wide">
